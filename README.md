@@ -7,7 +7,7 @@ A solution to Time Series Analysis, including Forecasting using [**ARIMA.**](htt
 
 You can run the whole analysis in [ **colab.** ](https://colab.research.google.com/drive/1b-voCdRjiX6jaUR8VXJrIlRHdeCEzjCz?usp=sharing#scrollTo=9bd55caf) 
 
-Using datafile:<ins>**US_births_2000-2014_SSA.csv**</ins>
+Using datafile: <ins>**US_births_2000-2014_SSA.csv**</ins>
 
 
 # Why do Seasonality Analysis?
@@ -17,9 +17,11 @@ Seasonality analysis helps uncover repeating patterns in data (e.g., weekly sale
 Autoregressive Integrated Moving Average (ARIMA) is a statistical model commonly used for time series forecasting. It combines three elements: autoregression (AR), differencing (I) to make data stationary, and moving averages (MA) to capture error patterns.
 
 ### Explaining ACF and PACF
-**Autocorrelation Function (ACF)** -> measures how <ins>correlated a time series is with itself<ins> at different time lags.
+```
+Autocorrelation Function (ACF) -> measures how correlated a time series is with itself at different time lags.
 
-**Partial Autocorrelation Function (PACF)** -> shows how much a past value is related to the current value <ins>after removing the effect of other lags<ins>.
+Partial Autocorrelation Function (PACF) -> shows how much a past value is related to the current value after removing the effect of other lags.
+```
 
 # Benefits of Forecasting
 Time series forecasting is valuable across fields, from predicting stock market trends and energy demand to planning retail inventory and anticipating weather patterns. Accurate forecasts support better decision-making, reduce costs, and help organizations prepare for the future.
